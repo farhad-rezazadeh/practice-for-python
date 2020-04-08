@@ -14,6 +14,7 @@ for R in range(row):
                             arr[_R][_C]+=1
                         except:
                             pass
+
 for i in range(row):
     for j in range(cols):
         print(arr[i][j], end=" ")
